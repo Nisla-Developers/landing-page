@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import './ContactUs.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMobileAlt, faEnvelope, faGlobeAsia, faMapPin } from '@fortawesome/free-solid-svg-icons'
+import { faMobileAlt, faEnvelope, faMapPin } from '@fortawesome/free-solid-svg-icons'
 
 const ContactUs = () => {
     return (
