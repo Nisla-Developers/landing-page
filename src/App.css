@@ -37,3 +37,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+.card:hover{
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+
+  box-shadow: 0 5px 5px grey;
+
+  -webkit-transition: all 0.65s ease-in-out;
+  -moz-transition:all 0.65s ease-in-out;
+  -ms-transition:all 0.65s ease-in-out;
+
+}
+
+.container{
+  margin-bottom: 52px;
+}
