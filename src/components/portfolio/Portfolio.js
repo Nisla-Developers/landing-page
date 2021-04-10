@@ -20,6 +20,30 @@ const Portfolio = () => {
       },
       {
         "url": "./assets/images/6.jpeg"
+      },
+      {
+        "url": "./assets/images/7.jpeg"
+      },
+      {
+        "url": "./assets/images/8.jpeg"
+      },
+      {
+        "url": "./assets/images/9.jpeg"
+      },
+      {
+        "url": "./assets/images/10.jpeg"
+      },
+      {
+        "url": "./assets/images/11.jpeg"
+      },
+      {
+        "url": "./assets/images/12.jpeg"
+      },
+      {
+        "url": "./assets/images/13.jpeg"
+      },
+      {
+        "url": "./assets/images/14.jpeg"
       }];
     return (
         <Container style={{ textAlign: "center" }}>
