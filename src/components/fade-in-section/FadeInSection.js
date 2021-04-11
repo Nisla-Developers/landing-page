@@ -19,22 +19,23 @@ const FadeInSection = (props) => {
             });
         });
         observer.observe(domRef.current);
-        return () => observer.unobserve(domRef.current);
+        const ref = domRef.current;
+        return () => observer.unobserve(ref);
     }, []);
 
     const getTransition = () =>{
-        if(props.side == 'bottom'){
+        if(props.side === 'bottom'){
             return 'translateY(10vh)'
         }
 
-        if(props.side == 'top'){
+        if(props.side === 'top'){
             return 'translateY(-10vh)'
         }
 
-        if(props.side == 'left'){
+        if(props.side === 'left'){
             return 'translateX(-10vw)'
         }
-        if(props.side == 'right'){
+        if(props.side === 'right'){
             return 'translateX(10vw)'
         }
     }
