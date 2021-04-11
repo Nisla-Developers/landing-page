@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import './Process.css';
 
 const Process = () => {
-    const processCards = [
-        {
+    const [processCards, setProcessCards] = useState([
+            {
             title: "MEET",
             discription: "Nisi minim culpa laboris aliqua incididunt velit cupidatat ea aute cupidatat."
         },
@@ -20,7 +20,8 @@ const Process = () => {
             title: "CONSTRUCT",
             discription: "Eiusmod quis nulla proident sit aliquip do in cillum velit sunt consequat laboris commodo."
         }
-    ]
+    ])
+    
     return (
         <Container style={{ textAlign: "center" }}>
             <Row>
@@ -36,14 +37,14 @@ const Process = () => {
                 {processCards.map(pCard => {
                     return (
                         <Col sm={6} xs={12} md={6} lg={3} className="mt-4">
-                            <Card bg={"dark"} text={"light"} style={{textAlign:"left", width:"100%", height:"100%"}}>
-                                <Card.Header>
-                                    {pCard.title}
-                                </Card.Header>
-                                <Card.Body style={{fontSize:"small",}}>
-                                    {pCard.discription}
-                                </Card.Body>
-                            </Card>
+                                <Card text={"light"} style={{textAlign:"left", width:"100%", height:"100%", backgroundColor:"#c2206c"}}>
+                                    <Card.Header>
+                                        {pCard.title}
+                                    </Card.Header>
+                                    <Card.Body style={{fontSize:"small",}}>
+                                        {pCard.discription}
+                                    </Card.Body>
+                                </Card>
                         </Col>
                     )
                 })}

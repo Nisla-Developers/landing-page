@@ -14,9 +14,9 @@
 
   box-shadow: 0 5px 5px grey;
 
-  -webkit-transition: all 0.65s ease-in-out;
-  -moz-transition:all 0.65s ease-in-out;
-  -ms-transition:all 0.65s ease-in-out;
+  -webkit-transition: transform 0.65s ease-in-out;
+  -moz-transition:transform 0.65s ease-in-out;
+  -ms-transition:transform 0.65s ease-in-out;
 
 }
 
