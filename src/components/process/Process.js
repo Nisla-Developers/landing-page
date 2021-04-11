@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import './Process.css';
 
 const Process = () => {
-    const [processCards, setProcessCards] = useState([
+    const [processCards, setProcessCards] = useState([]);
+
+    useEffect(()=>{
+        setProcessCards([
             {
             title: "MEET",
             discription: "Nisi minim culpa laboris aliqua incididunt velit cupidatat ea aute cupidatat."
@@ -21,6 +24,7 @@ const Process = () => {
             discription: "Eiusmod quis nulla proident sit aliquip do in cillum velit sunt consequat laboris commodo."
         }
     ])
+    },[])
     
     return (
         <Container style={{ textAlign: "center" }}>
