@@ -39,7 +39,7 @@ function App() {
 
         <Container>
           <ResponsiveEmbed aspectRatio="16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/GIku1xggVn0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLCAXVg4StqqjOavuw8m1dvD611CY5e-8j?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </ResponsiveEmbed>
         </Container>
 
