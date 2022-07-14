@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -9,7 +14,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  scroll-behavior: smooth;
 }
 
 code {
@@ -17,6 +21,9 @@ code {
     monospace;
 }
 
-.fontAwesome {
-  font-family: Helvetica, 'Font Awesome 5 Free', sans-serif;
+.MuiDivider-root::before{
+  border-top: thin solid rgba(255, 255, 255, 1) !important;
+}
+.MuiDivider-root::after{
+  border-top: thin solid rgba(255, 255, 255, 1) !important;
 }

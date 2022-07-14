@@ -1,25 +1,6 @@
-
-.App {
-  text-align: center;
-  margin-top: 120px;
-}
-
-.card:hover{
-  -moz-transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -o-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
-
-  box-shadow: 0 5px 5px grey;
-
-  -webkit-transition: transform 0.65s ease-in-out;
-  -moz-transition:transform 0.65s ease-in-out;
-  -ms-transition:transform 0.65s ease-in-out;
-
-}
-
-.container{
-  margin-bottom: 80px;
+.app_container {
+  /* height: 100vh; */
+  padding: 0 !important;
+  background-color: #211c31;
+  color: white;
 }
